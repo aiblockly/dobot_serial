@@ -7,7 +7,7 @@ setuptools.setup(
     description='Present by Virobotics',
     author='hetong',
     author_email='hetongtech@hotmail.com',
-    install_requires=['pyserial'],
+    install_requires=['pyserial',"numpy"],
     url='',
     packages=setuptools.find_packages(),
     package_dir = {'': './'},
